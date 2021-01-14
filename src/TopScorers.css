@@ -1,0 +1,18 @@
+.ui.two.cards,
+th,
+td {
+	margin: 5px;
+	color: #5e14c7;
+}
+
+span {
+	color: #5e14c7;
+}
+
+tbody {
+	background-color: #8d3cff;
+}
+
+td {
+	color: white;
+}
