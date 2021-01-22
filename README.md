@@ -2,7 +2,7 @@
 React Js app that gets soccer api and displays the current soccer league standing and top scorers (from Europe top five soccer leagues).
 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
