@@ -3,7 +3,7 @@ import './YearInput.css';
 
 class YearInput extends React.Component {
 	state = {
-		term: '2020'
+		term: '2021'
 	};
 
 	onInputChange = (event) => {
