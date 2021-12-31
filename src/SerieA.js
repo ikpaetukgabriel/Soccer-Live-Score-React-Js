@@ -5,7 +5,7 @@ import YearInput from './YearInput';
 
 export class PremierLeague extends React.Component {
 	state = {
-		year: '2020',
+		year: '2021',
 		standingLoading: true,
 		topScorersLoading: true,
 		flag: '',
