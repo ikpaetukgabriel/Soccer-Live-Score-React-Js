@@ -1,18 +1,22 @@
 .ui.two.cards,
 th,
 td {
-	margin: 5px;
-	color: #5e14c7;
+  margin: 5px;
+  color: var(--primary-color);
+}
+
+.ui.celled.table {
+  border-top: 0.2em solid var(--primary-color);
 }
 
 span {
-	color: #5e14c7;
+  color: var(--primary-color);
 }
 
 tbody {
-	background-color: #8d3cff;
+  background-color: var(--primary-color);
 }
 
 td {
-	color: white;
+  color: white;
 }

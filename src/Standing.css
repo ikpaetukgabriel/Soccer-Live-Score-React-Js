@@ -1,35 +1,27 @@
 .ui.two.cards,
 th,
 td {
-	margin: 5px;
-	color: #5e14c7;
+  margin: 5px;
+  color: var(--primary-color);
 }
 
+.ui.celled.table {
+  border-left: 0.4em solid var(--tertiary-color);
+}
+
+/* Table Headers */
 span {
-	color: #5e14c7;
+  color: var(--primary-color);
 }
 
 tbody {
-	background-color: #8d3cff;
-}
-
-td {
-	color: white;
-}
-
-.loading.content {
-	height: 600px;
-	color: #5e14c7;
-}
-
-.ui.large.large.loader span {
-	color: #5e14c7;
+  background-color: var(--secondary-color);
 }
 
 .card {
-	overflow: auto;
+  overflow: auto;
 }
 
 .card::-webkit-scrollbar {
-	display: none;
+  display: none;
 }

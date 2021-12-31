@@ -19,7 +19,7 @@ class YearInput extends React.Component {
 	render() {
 		return (
 			<form className="ui left input" onSubmit={this.onFormSubmit}>
-				<div className="ui teal labeled icon button">
+				<div className="ui labeled icon button">
 					<i className="futbol outline icon" />
 					{this.props.league}
 				</div>

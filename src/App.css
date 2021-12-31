@@ -1,20 +1,29 @@
+:root {
+  --primary-color: #292929;
+  --secondary-color: #f5f5f5;
+  --secondary-color2: #e0e0e0;
+  --tertiary-color: #38b000;
+}
+
 #root {
-	height: 100%;
+  height: 100%;
+  font-family: fantasy;
+  font-weight: bold;
 }
 .main.container {
-	background-color: #f8f0fc;
-	border-radius: 5px;
-	padding: 10px;
-	height: 100%;
-	direction: flex;
-	justify-content: center;
-	overflow: scroll;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  padding: 10px;
+  height: 100%;
+  direction: flex;
+  justify-content: center;
+  overflow: scroll;
 }
 
 .ui.inverted.segment {
-	margin-top: 5px;
+  margin-top: 5px;
 }
 
 .main.container::-webkit-scrollbar {
-	display: none;
+  display: none;
 }

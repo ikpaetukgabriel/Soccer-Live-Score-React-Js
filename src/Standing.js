@@ -28,8 +28,8 @@ const Standing = ({ loading, standingDetails, apiMessage }) => {
 			<div className="card">
 				<div className="content">
 					<h3>Standing</h3>
-					<table className="ui violet celled table">
-						<thead>
+					<table className="ui celled table">
+						<thead className="heading">
 							<tr>
 								<th>
 									<span>Pos.</span>

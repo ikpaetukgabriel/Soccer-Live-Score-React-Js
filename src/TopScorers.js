@@ -28,7 +28,7 @@ const Standing = ({ loading, topScorersDetails, apiMessage }) => {
 			<div className="card">
 				<div className="content">
 					<h3>Top Scorers</h3>
-					<table className="ui violet celled table">
+					<table className="ui celled table">
 						<thead>
 							<tr>
 								<th>
