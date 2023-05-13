@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './styles/App.css';
 import NavBar from './components/NavBar';
+
 import SerieA from './leagues/SerieA';
 import PremierLeague from './leagues/PremierLeague';
 import LaLiga from './leagues/LaLiga';
