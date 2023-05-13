@@ -1,7 +1,7 @@
 import React from 'react';
-import Standing from './Standing';
-import TopScorers from './TopScorers';
-import YearInput from './YearInput';
+import Standing from '../components/Standing';
+import TopScorers from '../components/TopScorers';
+import YearInput from '../components/YearInput';
 
 export class PremierLeague extends React.Component {
 	state = {

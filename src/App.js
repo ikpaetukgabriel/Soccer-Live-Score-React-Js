@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
-import NavBar from './NavBar';
-import SerieA from './SerieA';
-import PremierLeague from './PremierLeague';
-import LaLiga from './LaLiga';
-import Bundesliga from './Bundesliga';
-import LigueOne from './LigueOne';
-import Eredivisie from './Eredivisie';
+import './styles/App.css';
+import NavBar from './components/NavBar';
+
+import SerieA from './leagues/SerieA';
+import PremierLeague from './leagues/PremierLeague';
+import LaLiga from './leagues/LaLiga';
+import Bundesliga from './leagues/Bundesliga';
+import LigueOne from './leagues/LigueOne';
+import Eredivisie from './leagues/Eredivisie';
 
 export class App extends React.Component {
 	render() {

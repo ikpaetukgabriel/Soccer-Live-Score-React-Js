@@ -1,7 +1,7 @@
 import React from 'react';
-import Standing from './Standing';
-import TopScorers from './TopScorers';
-import YearInput from './YearInput';
+import Standing from '../components/Standing';
+import TopScorers from '../components/TopScorers';
+import YearInput from '../components/YearInput';
 
 export class PremierLeague extends React.Component {
 	state = {
@@ -15,7 +15,7 @@ export class PremierLeague extends React.Component {
 	};
 
 	onTermSubmit = async (term) => {
-		await fetch(`https://api-football-beta.p.rapidapi.com/standings?season=${term}&league=61`, {
+		await fetch(`https://api-football-beta.p.rapidapi.com/standings?season=${term}&league=88`, {
 			method: 'GET',
 			headers: {
 				'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
@@ -39,7 +39,7 @@ export class PremierLeague extends React.Component {
 				console.error(err);
 			});
 
-		await fetch(`https://api-football-beta.p.rapidapi.com/players/topscorers?season=${term}&league=61`, {
+		await fetch(`https://api-football-beta.p.rapidapi.com/players/topscorers?season=${term}&league=88`, {
 			method: 'GET',
 			headers: {
 				'x-rapidapi-key': process.env.REACT_APP_RAPIDAPI_KEY,
@@ -65,7 +65,7 @@ export class PremierLeague extends React.Component {
 	render() {
 		return (
 			<div className="ui container">
-				<YearInput leagueLogo={this.state.flag} league="Ligue 1" onFormSubmit={this.onTermSubmit} />
+				<YearInput leagueLogo={this.state.flag} league="Eredevisie" onFormSubmit={this.onTermSubmit} />
 
 				<div className="ui two cards">
 					<Standing
