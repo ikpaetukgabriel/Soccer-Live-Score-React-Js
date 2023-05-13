@@ -1,0 +1,22 @@
+.ui.two.cards,
+th,
+td {
+  margin: 5px;
+  color: var(--primary-color);
+}
+
+.ui.celled.table {
+  border-top: 0.2em solid var(--primary-color);
+}
+
+span {
+  color: var(--primary-color);
+}
+
+tbody {
+  background-color: var(--primary-color);
+}
+
+td {
+  color: white;
+}

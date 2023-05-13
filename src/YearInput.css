@@ -1,0 +1,22 @@
+.ui.labeled.icon.button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  cursor: default;
+  font-family: fantasy;
+  font-weight: bold;
+  width: 10em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 3.5em;
+}
+
+.ui.left.input > input {
+  font-family: fantasy;
+  font-weight: bold;
+  width: 4.6em;
+}
+
+.futbol.outline.icon {
+  color: var(--tertiary-color);
+}

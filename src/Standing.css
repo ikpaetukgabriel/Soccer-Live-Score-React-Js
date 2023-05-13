@@ -1,0 +1,27 @@
+.ui.two.cards,
+th,
+td {
+  margin: 5px;
+  color: var(--primary-color);
+}
+
+.ui.celled.table {
+  border-left: 0.4em solid var(--tertiary-color);
+}
+
+/* Table Headers */
+span {
+  color: var(--primary-color);
+}
+
+tbody {
+  background-color: var(--secondary-color);
+}
+
+.card {
+  overflow: auto;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}

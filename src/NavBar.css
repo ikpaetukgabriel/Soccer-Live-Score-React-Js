@@ -1,0 +1,73 @@
+.nav-bar-container {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  background-color: var(--secondary-color);
+  height: 4.5em;
+  padding: 0 2em;
+  border-radius: 0.4em;
+  margin-bottom: 1em;
+}
+
+.nav-bar-container .left-container {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.nav-bar-container .league {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-left: 0.5em solid var(--tertiary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.2em;
+  width: 9em;
+  border-radius: 0.4em;
+}
+
+.nav-bar-container .league:hover {
+  background-color: var(--tertiary-color);
+  color: var(--secondary-color);
+  border-left: 0.5em solid var(--primary-color);
+  transition: all 900ms ease;
+}
+
+.nav-bar-container .right-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar-container .logo-container {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5em solid var(--tertiary-color);
+  height: 3.2em;
+  width: 10em;
+  border-radius: 0.4em;
+}
+
+.nav-bar-container .logo-link:hover > .logo-container {
+  background-color: var(--tertiary-color);
+  border-left: 0.5em solid var(--primary-color);
+  transition: all 900ms ease;
+}
+
+.nav-bar-container .paper.plane.icon {
+  color: var(--tertiary-color);
+}
+
+.nav-bar-container .logo-link:hover .paper.plane.icon {
+  color: var(--secondary-color);
+}
+
+.nav-bar-container .icon-text {
+  color: var(--secondary-color);
+}
