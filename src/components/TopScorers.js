@@ -1,5 +1,5 @@
 import React from 'react';
-import './Standing.css';
+import '../styles/Standing.css';
 import TopScorerItem from './TopScorerItem';
 import Loading from './Loading';
 

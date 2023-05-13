@@ -1,9 +1,8 @@
 import React from 'react';
-import './YearInput.css';
+import '../styles/YearInput.css';
 
 class YearInput extends React.Component {
 	state = {
-		// Term should be string of last year
 		term: `${new Date().getFullYear() - 1}`,
 	};
 

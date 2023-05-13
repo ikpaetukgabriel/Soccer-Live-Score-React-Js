@@ -1,6 +1,6 @@
 import React from 'react';
 import Loading from './Loading';
-import './Standing.css';
+import '../styles/Standing.css';
 import StandingItem from './StandingItem';
 
 const Standing = ({ loading, standingDetails, apiMessage }) => {
