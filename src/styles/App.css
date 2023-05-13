@@ -5,6 +5,13 @@
   --tertiary-color: #38b000;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: var(--primary-color);
+}
+
 #root {
   height: 100%;
   font-family: fantasy;
